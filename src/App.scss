@@ -1,0 +1,14 @@
+.weatherdiv {
+  border: 1px solid  black;
+  width: 180px;
+  height:230px;
+  padding : 20px;
+  float: left;
+  margin-left: 190px;
+  margin-top:50px;
+  background-color: rgb(190, 218, 196);
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 550;
+  font-family: floor($number: 10);
+}

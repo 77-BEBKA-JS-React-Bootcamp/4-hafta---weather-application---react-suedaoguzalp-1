@@ -1,0 +1,28 @@
+.search-wrapper {
+    height: 28vh;
+    // width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white ;
+    background-image: url('https://ak.picdn.net/shutterstock/videos/1040901965/thumb/1.jpg');
+
+    input {
+        font-size: 2em;
+        outline: 0;
+        border: 1px solid #2F324C;
+        border-radius: 5px;
+        padding: 0.6vh;
+        
+        &:hover {
+            border: 2px solid #2F324C;
+            border-radius: 5px;
+        }
+    }
+   
+}
+.icon {
+    color: green;
+    margin-left:10px;
+}
